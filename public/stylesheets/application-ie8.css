@@ -2317,7 +2317,7 @@ x:-moz-any-link {
 
 .govuk-header__container--full-width {
   padding: 0 15px;
-  border-color: #ffb000;
+  border-color: #1d70b8;
 }
 .govuk-header__container--full-width .govuk-header__menu-button {
   right: 15px;
@@ -2327,7 +2327,7 @@ x:-moz-any-link {
   position: relative;
   margin-bottom: -10px;
   padding-top: 10px;
-  border-bottom: 10px solid #ffb000;
+  border-bottom: 10px solid #1d70b8;
 }
 .govuk-header__container:after {
   content: "";

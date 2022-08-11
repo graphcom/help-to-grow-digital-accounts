@@ -14,7 +14,7 @@
   <div class="govuk-error-summary__body">
     <ul class="govuk-list govuk-error-summary__list">
       <li>
-        <a href="#applicant-name">Enter your full name</a>
+        <a href="#full-name">Enter your full name</a>
       </li>
     </ul>
   </div>
@@ -28,22 +28,21 @@
     <form class="form" action="role" method="post">
 
       <div class="govuk-form-group">
-        <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="applicant-name">
+        <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="full-name">
           Your details
         </label></h1>
         <span class="govuk-caption-l">Section 2 of 3</span>
 
         <h3 class="govuk-heading-s govuk-!-margin-top-8">What is your full name?</h3>
 
-        <div id="applicant-name-hint" class="govuk-hint govuk-!-margin-top-4"> Full name</div>
-        <span style="display:none" id="applicant-name" class="govuk-error-message">
-            <span class="govuk-visually-hidden">Error:</span>Enter your full name
+        <span style="display:none" id="full-name" class="govuk-error-message">
+            <span class="govuk-visually-hidden">Error:</span>Enter your full-name
           </span>
-        <input class="govuk-input" id="applicant-name-1" name="applicant-name" type="text" spellcheck="false" autocomplete="name" aria-describedby="applicant-name-hint">
+        <input class="govuk-input" id="full-name-1" name="full-name" type="text" spellcheck="false" autocomplete="name" aria-describedby="full-name-hint">
 
       </div>
 
-      <button class="govuk-button applicant-name" data-module="govuk-button">Next</button>
+      <button class="govuk-button phone-number" data-module="govuk-button">Next</button>
 
     </form>
 

@@ -10,6 +10,26 @@
     background-image: url(../images/govuk-crest.png);
 }
 
+.govuk-sub-pages-menu {
+    top: auto;
+    right: 0;
+    bottom: -45px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style: none;
+}
+
+
+.govuk-sub-pages-menu li {
+    display: inline-block;
+    display: inline-block;
+    margin-right: 11px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 /*Fonts path*/
 @font-face {
     font-family:GDS Transport;

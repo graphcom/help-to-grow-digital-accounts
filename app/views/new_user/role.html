@@ -1,8 +1,8 @@
 
-{% extends "layout_accounts.html" %}
+{% extends "layout_accounts_subnav.html" %}
 
 {% block pageTitle %}
-  Help to Grow: Digital - Digital Accounts
+Help to Grow: Digital - Digital Accounts
 {% endblock %}
 
 {% block content %}
@@ -31,13 +31,12 @@
         <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="job-title">
           Your details
         </label></h1>
-        <span class="govuk-caption-l">Section 2 of 3</span>
 
-        <h3 class="govuk-heading-s govuk-!-margin-top-8">What is your job title or role?</h3>
+        <h3 class="govuk-heading-s govuk-!-margin-top-8">What is their job title or role?</h3>
 
-        <div id="job-title-hint" class="govuk-hint govuk-!-margin-top-4">Job title or role</div>
+        <label for="job-title" class="govuk-label govuk-!-margin-top-4">Job title or role</label>
         <span style="display:none" id="job-title" class="govuk-error-message">
-            <span class="govuk-visually-hidden">Error:</span>Enter your job title or role
+            <span class="govuk-visually-hidden">Error:</span>Enter their job title or role
           </span>
         <input class="govuk-input" id="job-title-1" name="job-title" type="text" spellcheck="false" autocomplete="name" aria-describedby="job-title-hint">
 

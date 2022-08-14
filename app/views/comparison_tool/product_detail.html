@@ -1,22 +1,75 @@
 
-{% extends "layout.html" %}
+{% extends "layout_accounts.html" %}
 
 {% block pageTitle %}
-  Help to Grow: Digital - Digital Accounts
+Help to Grow: Digital - Digital Accounts
 {% endblock %}
 
 {% block content %}
 
+<style>
+  .beis-navy-blue{
+    background-color:#1E1A34;
+    display: block;
+    height: 224px;
+  }
+
+  .beis-columns {
+    float:right;
+    color: #ffffff;
+    /*border: 1px solid white;*/
+    width: 300px;
+  }
+
+  .beis_columns_text{
+    width: 60%!important;
+    float:left!important;
+  }
+
+  .beis-white-text{
+    color: #ffffff;
+  }
+
+  .govuk-\!-padding-right-8 {
+    padding-right: 50px !important;
+
+  }
+</style>
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <h1 class="govuk-heading-l">
-      More about this software
-    </h1>
 
-    <h2 class="govuk-heading-s"></h2>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full govuk-body">
+        <a href="/" id="breadcrumb-link-home">Home</a><span class="next-pointer"> &gt; </span>
+        <span>Advice and learning</span>
+      </div>
+    </div>
+
+    <div class="govuk-width-container beis-navy-blue">
+      <div class="beis-columns beis_columns_text">
+        <h1 class="govuk-!-padding-right-8 govuk-heading-l beis-white-text govuk-!-margin-bottom-3 govuk-!-margin-top-6">
+          Advice and learning
+        </h1>
+        <!--        <div class="govuk-body govuk-!-padding-right-8 govuk-!-width-one-half">-->
+        <div class="">
+          <p class="beis-white-text">Browse our articles and case studies. Each is designed to help expand your digital knowledge and support
+            you taking the next step on your technology journey.</p>
+        </div>
+
+      </div>
+
+      <div class="beis-columns">
+        <img src="https://cms.learn-to-grow-your-business.service.gov.uk/uploads/i_Stock_1182622661_fd3a1139ca.jpg" height="224px" width="300px" class="hero-mobile-image">
+      </div>
+
+      <div>
+
+      </div>
+
+    </div>
+
 
 
   </div>
-</div>
-
-{% endblock %}
+  {% endblock %}

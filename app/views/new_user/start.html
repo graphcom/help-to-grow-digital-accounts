@@ -7,10 +7,33 @@
 
 {% block content %}
 
+<style>
+  .navigation-breadcrumb .govuk-width-container .govuk-grid-column-full a:first-child {
+    font-weight: 700;
+  }
+
+  .navigation-breadcrumb .govuk-width-container .govuk-grid-column-full a {
+    color: #000;
+  }
+</style>
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
 
-    <h1 class="govuk-heading-l">Add a new user</h1>
+    <div class="navigation-breadcrumb" id="12">
+      <div class="govuk-width-container">
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-full govuk-body">
+            <a href="/" id="breadcrumb-link-home">Home</a><span class="next-pointer"> &gt; </span>
+            <a href="/comparison-tool" id="breadcrumb-link-get-your-software-discount-0">My account</a><span class="next-pointer"> &gt; </span>
+            <a href="#"><span>Manage account</span></a><span class="next-pointer"> > </span> <span>Add new user</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="govuk-heading-l govuk-!-margin-top-8">Add a new user</h1>
 
     <p class="govuk-body-l">
       Invite someone to use this account and access your company discount.

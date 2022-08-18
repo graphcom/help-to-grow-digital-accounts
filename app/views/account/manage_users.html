@@ -76,6 +76,9 @@ Help to Grow: Digital - Digital Accounts
     padding-bottom: 10px;
   }
 
+  .govuk-summary-list__key {
+    width: 15%;
+  }
 
 
 </style>
@@ -144,7 +147,7 @@ Help to Grow: Digital - Digital Accounts
             john.smith@account.com
           </dd>
           <dd class="govuk-summary-list__value">
-            <a href="#" class="govuk-!-margin-right-3 govuk-!-margin-left-1">Change</a>
+            <a href="/edit_user/details" class="govuk-!-margin-right-2 govuk-!-margin-left-1">Change</a>
             <a href="#">Remove</a>
           </dd>
         </div>
@@ -209,7 +212,7 @@ Help to Grow: Digital - Digital Accounts
       </dl>
 
 
-      <form>
+      <form action="/new_user/start">
         <button class="govuk-button button">
           Add a new user
         </button>

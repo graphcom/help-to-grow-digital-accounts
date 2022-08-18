@@ -40,10 +40,16 @@
 {% endblock %}
 
 {% block header %}
-{% include "includes/masthead.html" %}
+  {# Set serviceName in config.js. #}
+  {{ govukHeader({
+    homepageUrl: "/",
+    serviceName: serviceName,
+    serviceUrl: "/",
+    containerClasses: "govuk-width-container"
+  }) }}
 {% endblock %}
 
-<!--{% set mainClasses = mainClasses | default("govuk-main-wrapper&#45;&#45;auto-spacing") %}-->
+{% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
 
 {% if useAutoStoreData %}
   {% block footer %}

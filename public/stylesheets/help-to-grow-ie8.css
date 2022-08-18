@@ -5211,6 +5211,10 @@ x:-moz-any-link {
   background: #f3f2f1;
 }
 
+.govuk-header__logo {
+  width: auto !important;
+}
+
 @media (min-width: 40.0625em) {
   .govuk-main-wrapper {
     padding-top: 10px;

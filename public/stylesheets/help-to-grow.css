@@ -2642,7 +2642,7 @@ x:-moz-any-link {
 .govuk-summary-list__actions {
     display: table-cell;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-bottom: 10px;
   }
 }
@@ -2670,7 +2670,7 @@ x:-moz-any-link {
 }
 @media (min-width: 40.0625em) {
   .govuk-summary-list__key {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -7995,6 +7995,10 @@ x:-moz-any-link {
 
 .govuk-footer {
   background: #f3f2f1;
+}
+
+.govuk-header__logo {
+  width: auto !important;
 }
 
 @media (min-width: 40.0625em) {

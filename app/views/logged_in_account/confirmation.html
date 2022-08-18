@@ -12,34 +12,40 @@ Help to Grow: Digital - Digital Accounts
 
     <div class="govuk-panel govuk-panel--confirmation">
 
-      <h1 class="govuk-panel__title">Discount application complete</h1>
-      <h2 class="govuk-panel__body">Your discount code 123abc456def</h2>
+      <h1 class="govuk-panel__title">Your application has been successful</h1>
+      <div class="govuk-panel__body">
+        <div class="govuk-!-font-size-27">
+          Your software purchase link is:
+        </div>
+        <a href="#" class="govuk-link govuk-link--inverse govuk-!-font-size-24"><strong>Help to Grow: Digital discount</strong></a>
+      </div>
 
     </div>
 
-    <h3 class="govuk-heading-s govuk-!-margin-top-8">What happens next</h3>
+    <p class="govuk-body">We have also sent your software purchase link for <strong>Cashoo</strong> to: <strong>{{ data['email'] }}</strong></p>
+    <!-- <p class="govuk-body">We have also sent your software purchase link for <strong>{{ data['select-software'] }}</strong> to: <strong>{{ data['email'] }}</strong></p> -->
 
-    <p class="govuk-body">
-      You will get an email to confirm your <a href="#" class="govuk-!-font-weight-bold">Cashoo</a>
-      discount code.
-    </p>
+    <h2 class="govuk-heading-m">What you need to do next</h2>
 
-    <p class="govuk-body">
-      You can then go to the supplier’s website to get 50% or £5,000 (excluding VAT) off the cost of
-      your software.
-    </p>
+    <ol class="govuk-list govuk-list--number">
+      <li>Follow the link, which will take you to the software vendor's website</li>
+      <li>Check that the software product and Help to Grow: Digital discount are correct</li>
+      <li>Complete your purchase</li>
+    </ol>
 
-    <p class="govuk-body">
-      You will need to use your discount within the next 30 days. If your discount expires,
-      you will need to submit your application again.
-    </p>
-
-
-    <form action="/account/overview">
-      <button class="govuk-button email-address" data-module="govuk-button">Go back to my account</button>
-    </form>
+    <div class="govuk-warning-text">
+      <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+      <strong class="govuk-warning-text__text">
+        <span class="govuk-warning-text__assistive">Warning</span>
+        Your unique link is valid for 30 days. After this, your software discount will expire and the unique link will become invalid.
+      </strong>
+    </div>
 
   </div>
+
+
+
+
 
 </div>
 
